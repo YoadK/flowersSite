@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(122, 195, 224);
+    direction: ltr;
+}
+
+h1 {
+
+    text-align: center;
+    font-family: cursive;
+    font-size: xx-large;
+
+}
+
+nav {
+    text-align: center;
+    font-family: cursive;
+    font-size: medium;
+
+}
+
+p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: large;
+}
+
+
+
+.bottom-img {
+    display: block;
+    align-items: start;
+    /* margin: 0 auto;  */
+    text-align: center;
+}
+
+
+
+.bottom-img table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+footer {
+    display: block;
+    /* position: absolute;
+    bottom: 0;
+    width: 100%;
+     */
+    text-align: center;
+}
+
+.form1 {
+    text-align: right;
+    font-family: cursive
+}
+
+
+
+.form1 input[type="text"] {
+    background-color: yellow;
+
+}
+
+.form1 select {
+    font-family: Georgia;
+    font-size: medium;
+}
+
+.form1 textarea {
+    background-color: yellow;
+
+
+}
+
+.input-field {
+    color: red;
+}
+
+/* Apply font-family to submit and reset buttons */
+input[type="submit"],
+input[type="reset"] {
+    font-family: 'Franklin Gothic Medium';
+}
+
+a:hover{
+    color:aqua
+}
+
+
+.contact-us {
+    text-align: right;
+
+}
