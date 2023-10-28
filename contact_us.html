@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חנות החיות המגניבה בארץ</title>
+    <link rel="stylesheet" href="style.css" </head>
+
+<body>
+    <h1>חנות החיות המגניבה בארץ!</h1>
+    <hr>
+
+    <nav>
+        <span>
+            <a href="/index.html">דף הבית</a> |
+            <a href="/animals.html">חיות</a> |
+            <a href="/contact_us.html">צור קשר</a>
+        </span>
+    </nav>
+
+    <h1 class="contact-us">צור קשר:</h1>
+    <br><br>
+    <div class="form1">
+        <form action="/save.html" method="get">
+
+            <table border="0" >
+
+                <tr>
+                        <td><label class="input-field">שם פרטי:</label></td>
+                        <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td><label class="input-field">שם משפחה:</label></td>
+                    <td><input type="text"></td>
+            </tr>
+
+                <tr>
+                    <td rowspan="2">מין</td>
+                    <td>
+                        <tr>
+                            <td>                                
+                                <input type="radio" id="male" name="male" value="male">
+                                <label for="male">זכר</label>
+                                <br>                                
+                                <input type="radio" id="female" name="female" value="female">
+                                <label for="female">נקבה</label>
+                                <br>
+                            </td>
+                        </tr>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>עיר:</label>
+                    </td>
+
+                    <td>
+                        <select>
+                            <option selected disabled>בחר עיר...</option>
+                            <option>תל אביב</option>
+                            <option>ירושלים</option>
+                            <option>חיפה</option>
+                            <option>אילת</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr aria-rowspan="4">
+                    <td class="input-field">הודעה:</td>
+                    <td><textarea name="address" cols="40" rows="4"></textarea></td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="שלח">
+                        <input type="reset" value="נקה">
+
+                        
+                </td>
+                </tr>
+                
+                
+                
+                
+                
+                
+            </table>
+            
+        </form>
+    </div>
+
+
+    <br><br>
+    <footer>כל הזכויות שמורות &copy; </footer>
+
+</body>
+
+</html>
